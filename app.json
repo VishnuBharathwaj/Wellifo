@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "assetBundlePatterns": ["**/*"],
+    "name": "WellifoApp",
+    "slug": "WellifoApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "scheme": "wellifo",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow WellifoApp to access your camera."
+        }
+      ],
+      "expo-asset"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Allow WellifoApp to access your camera for food tracking."
+      }
+    },
+    "android": {
+      "package": "com.vishnu2004.WellifoApp",
+      "permissions": [
+        "CAMERA"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "05e79e43-90d1-4528-84bb-128d2d1f72ac"
+      }
+    },
+    "owner": "vishnu2004"
+  }
+}

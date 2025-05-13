@@ -1,0 +1,52 @@
+{
+  "name": "wellifoapp",
+  "version": "1.0.0",
+  "main": "index.jsx",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@react-native-community/datetimepicker": "8.2.0",
+    "@react-native-picker/picker": "^2.11.0",
+    "@react-navigation/bottom-tabs": "^7.3.10",
+    "@react-navigation/native": "^7.1.6",
+    "@react-navigation/native-stack": "^7.3.10",
+    "axios": "^1.8.4",
+    "base64-arraybuffer": "^1.0.2",
+    "expo": "~52.0.43",
+    "expo-asset": "~11.0.5",
+    "expo-camera": "~16.0.18",
+    "expo-dev-client": "~5.0.19",
+    "expo-file-system": "~18.0.12",
+    "expo-image-manipulator": "~13.0.6",
+    "expo-linear-gradient": "^14.0.2",
+    "expo-location": "~18.0.10",
+    "expo-status-bar": "~2.0.1",
+    "firebase": "^11.6.0",
+    "haversine-distance": "^1.2.3",
+    "papaparse": "^5.5.2",
+    "react": "18.3.1",
+    "react-native": "0.76.9",
+    "react-native-gesture-handler": "~2.20.2",
+    "react-native-maps": "1.18.0",
+    "react-native-paper": "^5.13.1",
+    "react-native-reanimated": "~3.16.1",
+    "react-native-safe-area-context": "^4.14.1",
+    "react-native-screens": "~4.4.0",
+    "react-native-vector-icons": "^10.2.0",
+    "react-native-view-shot": "~4.0.3",
+    "xlsx": "^0.18.5",
+    "expo-auth-session": "~6.0.3",
+    "expo-web-browser": "~14.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.3.12",
+    "typescript": "^5.3.3"
+  },
+  "private": true
+}
